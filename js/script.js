@@ -1,36 +1,41 @@
 
-$(document).ready(function()
+function check(){
+var question1= document.quiz.question1.value;
+var question2= document.quiz.question2.value;
+var question3= document.quiz.question3.value;
+var question4= document.quiz.question4.value;
+var correct=0;
+};
 
-function buildQuiz(){
+if (question1 == "HTML") {
+correct=++;
+};
 
-}
-function.showResults(); {
+if (question2 == "JS") {
+correct=++;
+};
 
-}
- quiz();
- submitButton.addEventListener("click", showResults);
+if (question3 == "No") {
+correct=++;
+};
 
-var myQuestions = [
+var messages = ["Great job!", "That's just okay", "You really need to do better"];
 
-function buildQuiz() {
-  var output =[];
-  myQuestions.forEach(
-    (currentQuestion, questionNumber) => {
-      var answers=[];
-      for(letter in currentQuestion.answers) {
-        answers.push(
-          <label>
-          <input type="radio"
-          name="question${questionNumber}" value="${letter}">
-          ${letter} :
-          ${currentQuestion.answers[letter]}
-          </label>
-        );
-      }
-    }
-    output.push(
-  `<div class="question"> ${currentQuestion.question} </div>
-  <div class="answers"> ${answers.join('')} </div>`
-);
-);
-}
+var range;
+
+if (correct < 1)
+{
+range = 2;
+};
+
+if (correct > 0 && correct < 3){
+range = 1;
+};
+
+if (correct > 2){
+range = 0;
+};
+
+document.getElementById("message").innerHTML= messages[range];
+document.getElementById("number_correct").innerHTML = "You got " +correct+ "correct";
+};

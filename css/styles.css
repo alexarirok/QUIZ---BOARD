@@ -5,9 +5,13 @@
 }
 body {
   background-color: mistyrose;
+  padding: 50px, 50px, 50px, 50px;
 }
 h1 {
   text-decoration: underline;
   text-align: center;
   color: black;
+  font-style: oblique;
+  font-weight: bold;
+  font-family: sans-serif, simplifica;
 }
