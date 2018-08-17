@@ -1,8 +1,4 @@
-.container {
-  background-color: skyblue;
-  font-size: 20px;
-  line-height: 35px;
-}
+
 body {
   background-color: mistyrose;
   padding: 50px, 50px, 50px, 50px;
@@ -14,4 +10,39 @@ h1 {
   font-style: oblique;
   font-weight: bold;
   font-family: sans-serif, simplifica;
+}
+p {
+  color: black;
+  font-style: normal;
+  font-family: sans-serif;
+}
+
+
+input {
+  margin-bottom: 18px;
+}
+#button {
+  background: #ffffcc;
+  border: none;
+  border-radius: 5px;
+  padding: 12px;
+  color: white;
+  font-size: 17px;
+  margin-top: 16px;
+}
+#button:hover {
+  background: white;
+  border: 2px red;
+  color: black;
+  cursor: pointer;
+}
+#after_submit {
+  visibility: visible;
+  background: skyblue;
+  padding: 10px, 20px, 10px, 20px;
+  width: 380px;
+  border-radius: 20px;
+  float: left;
+  margin-left: 20px;
+  font-size: 30px;
 }
