@@ -17,7 +17,11 @@ p {
   font-family: sans-serif;
 }
 
-
+.container{
+  text-align: left;
+  font-size: 20px;
+  font-family: sans-serif;
+}
 input {
   margin-bottom: 18px;
 }

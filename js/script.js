@@ -33,5 +33,5 @@ range = 0;
 }
 
 document.getElementById("message").innerHTML= messages[range];
-document.getElementById("number_correct").innerHTML = "You got " + correct + " correct ";
+document.getElementById("number_correct").innerHTML = "Your score is: " + correct + " correct ";
 }
