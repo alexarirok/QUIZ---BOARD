@@ -9,17 +9,20 @@ The application is about a Quiz---Board which contains questions about javaScrip
 The project uses atom editor for editing purposes
 The project uses google chrome to console on JavaScript
 the project has deployed use of HTML for craeting the content and CSS for styling.
+you can install the project by visit the site https://alexarirok.github.io/QUIZ---BOARD/. then attempt the questions on the that will be displayed.
+
 ****Technologies used****
 JavaScript
 CSS
 HTML
 Atom
 jQuery
-Bootstrap 
+Bootstrap
+
 ******Support and contact details*****
 for more info email akorir233@gmail.com  https://alexarirok.github.io/QUIZ---BOARD/
 
-License
+######## License
 MIT License
 
 Copyright (c) (2018) [alexarirok]
