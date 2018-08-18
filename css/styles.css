@@ -1,6 +1,6 @@
 
 body {
-  background-color: mistyrose;
+  background-color: #ffffcc;
   padding: 50px, 50px, 50px, 50px;
 }
 h1 {
@@ -17,22 +17,18 @@ p {
   font-family: sans-serif;
 }
 
-.container{
-  text-align: left;
-  font-size: 20px;
-  font-family: sans-serif;
-}
 input {
-  margin-bottom: 18px;
+  margin-bottom: 22px;
 }
 #button {
-  background: #ffffcc;
+  background: #80ff80;
   border: none;
   border-radius: 5px;
   padding: 12px;
   color: white;
   font-size: 17px;
   margin-top: 16px;
+  transition-duration: .2s;
 }
 #button:hover {
   background: white;
@@ -41,12 +37,23 @@ input {
   cursor: pointer;
 }
 #after_submit {
-  visibility: visible;
+  visibility: hidden;
   background: skyblue;
-  padding: 10px, 20px, 10px, 20px;
-  width: 380px;
+  padding: 20px, 40px, 20px, 40px;
+  width: 450px;
   border-radius: 20px;
-  float: left;
-  margin-left: 20px;
+  float: right;
+  margin: center;
   font-size: 30px;
+
 }
+#quiz {
+  border-radius: 10px;
+  float: left;
+  padding: 20px, 10px, 20px, 10px;
+  font-size: 20px;
+  color: black;
+}
+ #mc {
+   border: inline;
+ }

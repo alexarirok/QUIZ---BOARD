@@ -17,7 +17,7 @@ if (question3 === "javaScript") {
 correct++;
 }
 
-var messages = ["Exellent!", "Good job", "Good trial!! try again"];
+var messages = ["Exellent!", "Good trial", "Try again!"];
 
 var range;
 
@@ -34,4 +34,5 @@ range = 0;
 
 document.getElementById("message").innerHTML= messages[range];
 document.getElementById("number_correct").innerHTML = "Your score is: " + correct + " correct ";
+document.getElementById("after_submit").style.visibility = "Visible";
 }

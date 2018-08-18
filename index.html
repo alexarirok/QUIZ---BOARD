@@ -1,43 +1,38 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html>
 
 <head>
-  <meta charset="utf-8">
+  <title>Quiz Board</title>
   <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
   <link rel="stylesheet" href="css/styles.css" type="text/css">
-  <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
   <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
   <script src="js/script.js"></script>
-  <title>Quiz Board</title>
-
 </head>
 
 <body>
   <h1>QUIZES ON JAVASCRIPT</h1>
-    <form id="quiz" name="quiz">
-      <div class="container">
+  <form id="quiz" name="quiz">
 
-      <p>1. Which of the folowing is not a javaScript data type?</p>
-      <input type="radio" id="mc" name="question1" value="Number">Number<br>
-      <input type="radio" id="mc" name="question1" value="String">String<br>
-      <input type="radio" id="mc" name="question1" value="jQuery">jQuery<br>
+    <p>1. Which of the folowing is not a javaScript data type?</p>
+    <input type="radio" id="mc" name="question1" value="Number">Number<br>
+    <input type="radio" id="mc" name="question1" value="String">String<br>
+    <input type="radio" id="mc" name="question1" value="jQuery">jQuery<br>
 
-      <P>2. Who introduced javaScript to the world?</p>
-      <input type="radio" id="mc" name="question2" value="Netscape">Netscape<br>
-      <input type="radio" id="mc" name="question2" value="Brendan Eich">Brendan Eich<br>
-      <input type="radio" id="mc" name="question2" value="Bill Gates">Bill Gates<br>
+    <P>2. Who introduced javaScript to the world?</p>
+    <input type="radio" id="mc" name="question2" value="Netscape">Netscape<br>
+    <input type="radio" id="mc" name="question2" value="Brendan Eich">Brendan Eich<br>
+    <input type="radio" id="mc" name="question2" value="Bill Gates">Bill Gates<br>
 
-      <p>3. Which among these is a programming language?</p>
-      <input type="radio" id="mc" name="question3" value="HTML">HTML<br>
-      <input type="radio" id="mc" name="question3" value="javaScript">javaScript<br>
-      <input type="radio" id="mc" name="question3" value="CSS">CSS<br>
+    <p>3. Which among these is a programming language?</p>
+    <input type="radio" id="mc" name="question3" value="HTML">HTML<br>
+    <input type="radio" id="mc" name="question3" value="javaScript">javaScript<br>
+    <input type="radio" id="mc" name="question3" value="CSS">CSS<br>
 
-      <input id="button" type="button" value="Submit" onclick="check()">
-      </div>
-    </form>
-    <div id="after_submit">
-      <p id="message"></p>
-      <p id="number_correct"></p>
+    <input id="button" type="button" value="Submit" onclick="check()">
+  </form>
+  <div id="after_submit">
+    <p id="message"></p>
+    <p id="number_correct"></p>
   </div>
 </body>
 
